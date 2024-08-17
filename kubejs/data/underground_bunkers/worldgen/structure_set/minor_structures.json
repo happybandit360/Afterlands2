@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "underground_bunkers:underground_bunker",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 734441625,
+    "spacing": 125,
+    "separation": 100,
+    "type": "minecraft:random_spread"
+  }
+}
