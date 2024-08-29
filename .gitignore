@@ -9,7 +9,9 @@
 /mods
 /saves
 /screenshots
+/tmmi
 /XaeroWaypoints
+/XaeroWaypoints_*
 /XaeroWorldMap
 icon.png
 knownkeys.txt
@@ -17,3 +19,5 @@ options.txt
 rhino.local.properties
 usercache.json
 usernamecache.json
+emi.json
+patchouli_data.json
