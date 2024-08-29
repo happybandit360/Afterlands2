@@ -1,0 +1,19 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:transmutation",
+        "ars_nouveau:spirit_jar",
+        "ars_nouveau:gem",
+        "ars_nouveau:automation/starbuncle_charm",
+        "ars_nouveau:equipment/dowsing_rod",
+        "ars_nouveau:getting_started/spell_casting",
+        "ars_nouveau:getting_started/spell_mana"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

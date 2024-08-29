@@ -50,6 +50,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
@@ -60,6 +63,20 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "crafting_blueprint": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
+  "portabletanks": {
+    "portable_tank_component": true
   },
   "waystones": {
     "waystone": true

@@ -12,10 +12,13 @@
             "temperature": 0,
             "humidity": 0,
             "continentalness": [
-              0.25,
-              0.75
+              0,
+              0
             ],
-            "erosion": 0.5,
+            "erosion": [
+              1,
+              1.5
+            ],
             "weirdness": [
               0.05,
               0.5
@@ -25,21 +28,60 @@
           }
         },
         {
-          "biome": "minecraft:badlands",
+          "biome": "minecraft:desert",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
-            "continentalness": [
-              0.5,
-              1
+            "continentalness": 0,
+            "erosion": [
+              0,
+              0.5
             ],
-            "erosion": 0,
             "weirdness": [
               0.25,
               0.5
             ],
-            "depth": 0,
+            "depth": 0.15,
+            "offset": 0.05
+          }
+        },
+        {
+          "biome": "minecraft:badlands",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0.15,
             "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:eroded_badlands",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": [
+              1,
+              2
+            ],
+            "weirdness": 0,
+            "depth": 0.25,
+            "offset": 0.05
+          }
+        },
+        {
+          "biome": "minecraft:wooded_badlands",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0.175,
+            "offset": 0.1
           }
         }
       ]

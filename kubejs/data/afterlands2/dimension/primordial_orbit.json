@@ -1,0 +1,11 @@
+{
+    "type": "afterlands2:primordial_orbit_type",
+    "generator": {
+      "type": "minecraft:noise",
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "biome": "ad_astra:orbit"
+      },
+      "settings": "ad_astra:orbit"
+    }
+  }

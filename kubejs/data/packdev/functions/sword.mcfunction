@@ -1,0 +1,1 @@
+give @p netherite_sword{display:{Name:'{"text":"Maximum Effort"}'},Enchantments:[{id:"minecraft:sharpness",lvl:32000s}]} 1
