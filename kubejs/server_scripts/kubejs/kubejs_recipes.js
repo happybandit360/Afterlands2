@@ -1,6 +1,6 @@
 ServerEvents.recipes((event) => {
     event
-      .shaped("kubejs:sandstone_pickaxe", [
+      .shaped("afterlands2:sandstone_pickaxe", [
           "AAA",
           " B ",
           " B "
@@ -8,10 +8,10 @@ ServerEvents.recipes((event) => {
           A: "#forge:sandstone",
           B: "#forge:rods/wooden",
       })
-      .id("kubejs:sandstone_pickaxe");
+      .id("afterlands2:sandstone_pickaxe");
     
     event
-      .shaped("kubejs:sandstone_axe", [
+      .shaped("afterlands2:sandstone_axe", [
           "AA",
           "AB",
           " B"
@@ -19,10 +19,10 @@ ServerEvents.recipes((event) => {
           A: "#forge:sandstone",
           B: "#forge:rods/wooden",
       })
-      .id("kubejs:sandstone_axe");
+      .id("afterlands2:sandstone_axe");
 
     event
-      .shaped("kubejs:sandstone_sword", [
+      .shaped("afterlands2:sandstone_sword", [
           "A",
           "A",
           "B"
@@ -30,10 +30,10 @@ ServerEvents.recipes((event) => {
           A: "#forge:sandstone",
           B: "#forge:rods/wooden",
       })
-      .id("kubejs:sandstone_sword");
+      .id("afterlands2:sandstone_sword");
 
     event
-      .shaped("kubejs:sandstone_shovel", [
+      .shaped("afterlands2:sandstone_shovel", [
           "A",
           "B",
           "B"
@@ -41,10 +41,10 @@ ServerEvents.recipes((event) => {
           A: "#forge:sandstone",
           B: "#forge:rods/wooden",
       })
-      .id("kubejs:sandstone_shovel");
+      .id("afterlands2:sandstone_shovel");
 
     event
-      .shaped("kubejs:sandstone_hoe", [
+      .shaped("afterlands2:sandstone_hoe", [
           "AA",
           " B",
           " B"
@@ -52,29 +52,37 @@ ServerEvents.recipes((event) => {
           A: "#forge:sandstone",
           B: "#forge:rods/wooden",
       })
-      .id("kubejs:sandstone_hoe");
+      .id("afterlands2:sandstone_hoe");
 
 
       event
-       .shaped("kubejs:wicker_mat", [
+       .shaped("afterlands2:wicker_mat", [
         "AA",
         "AA",
         "AA"
        ], {
         A: "minecraft:dead_bush"
        })
-       .id("kubejs:wicker_mat")
+       .id("afterlands2:wicker_mat")
 
       event
-       .shaped("kubejs:wicker_block", [
+       .shaped("afterlands2:wicker_block", [
         "AA",
         "AA"
        ], {
-        A: "kubejs:wicker_mat"
+        A: "afterlands2:wicker_mat"
        })
-       .id("kubejs:wicker_block")
+       .id("afterlands2:wicker_block")
 
-      
+      event
+       .shaped("afterlands2:flint_shears", [
+        "A ",
+        " A"
+       ], {
+        A: "afterlands2:broken_flint"
+       })
+       .id("afterlands2:flint_shears")
+
 
 
   });

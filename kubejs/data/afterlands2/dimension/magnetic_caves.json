@@ -1,0 +1,42 @@
+{
+    "type": "afterlands2:caves_type",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "afterlands2:magnetic_caves_settings",
+      "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "alexscaves:magnetic_caves",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [
+              0,
+              0
+            ],
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "minecraft:jagged_peaks",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 1,
+            "weirdness": 0.4,
+            "depth": [
+              -0.6,
+              0.75
+            ],
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

@@ -12,10 +12,10 @@ ServerEvents.recipes(event => {
     event
     .recipes
     .createsifterSifting([
-        Item.of('kubejs:dirt_nuggie').withChance(1.0),
-        Item.of('kubejs:dirt_nuggie').withChance(0.5),
-        Item.of('kubejs:dirt_nuggie').withChance(0.1),
-    ], ['kubejs:wicker_block','createsifter:string_mesh'])
+        Item.of('afterlands2:dirt_nuggie').withChance(1.0),
+        Item.of('afterlands2:dirt_nuggie').withChance(0.5),
+        Item.of('afterlands2:dirt_nuggie').withChance(0.1),
+    ], ['afterlands2:wicker_block','createsifter:string_mesh'])
 
 // Add Dead Bush to Sand, but have to add everything else back too lul
     event

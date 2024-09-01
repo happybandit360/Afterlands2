@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_the_wasteland"
+	group: ""
+	id: "0EB9A4F203F084C7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["It's been years. Bad stuff. try make mo betta"]
+		icon: "minecraft:writable_book"
+		id: "6BE21760585B5BF8"
+		shape: "gear"
+		tasks: [{
+			id: "3ABE4375CE486D1C"
+			title: "It Begin"
+			type: "checkmark"
+		}]
+		x: -7.0d
+		y: -2.0d
+	}]
+	title: "Welcome To The Wasteland"
+}

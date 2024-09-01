@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_survival"
+	group: ""
+	id: "2531C3A831B39D9E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:dead_bush"
+			id: "350EAFA06451DB9D"
+			rewards: [{
+				count: 8
+				id: "6BFCC130F4BBAA8D"
+				item: "minecraft:stick"
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7FA8874EAF07C8B8"
+				item: { Count: 16, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			id: "44D2F33F49123E72"
+			tasks: [{
+				count: 3L
+				id: "603BF551EE69DA82"
+				item: { Count: 3, id: "minecraft:sandstone" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			id: "697B8842DBE2A4E7"
+			tasks: [{
+				id: "239E2547FD527B44"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+	]
+	title: "Basic Survival"
+}

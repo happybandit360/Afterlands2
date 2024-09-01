@@ -1,0 +1,24 @@
+{
+    "type": "afterlands2:caves_type",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "afterlands2:toxic_caves_settings",
+      "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "alexscaves:toxic_caves",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 2,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+    }
+  }

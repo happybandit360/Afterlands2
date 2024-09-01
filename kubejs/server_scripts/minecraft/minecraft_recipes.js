@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         "AA",
         "AA"
     ], {
-        A: "kubejs:dirt_nuggie"
+        A: "afterlands2:dirt_nuggie"
     })
     .id("afterlands2:dirt_from_nuggies")
 

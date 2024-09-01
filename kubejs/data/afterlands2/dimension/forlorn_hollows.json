@@ -1,0 +1,11 @@
+{
+    "type": "afterlands2:caves_type",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "afterlands2:forlorn_hollows_settings",
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "biome": "alexscaves:forlorn_hollows"
+      }
+    }
+  }

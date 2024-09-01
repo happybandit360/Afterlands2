@@ -1,15 +1,15 @@
 ServerEvents.tags("item", (event) => {
-    event.add("kubejs:sandstonetools", [
-        "kubes:sandstone_pickaxe",
-        "kubejs:sandstone_axe",
-        "kubejs:sandstone_sword",
-        "kubejs:sandstone_shovel",
-        "kubejs:sandstone_hoe",
+    event.add("afterlands2:sandstonetools", [
+        "afterlands2:sandstone_pickaxe",
+        "afterlands2:sandstone_axe",
+        "afterlands2:sandstone_sword",
+        "afterlands2:sandstone_shovel",
+        "afterlands2:sandstone_hoe",
     ]);
 
-    event.add("kubejs:sandstonepick", "kubes:sandstone_pickaxe");
+    event.add("afterlands2:sandstonepick", "afterlands2:sandstone_pickaxe");
 
-    event.add("kubejs:tornadoitem", [
+    event.add("afterlands2:tornadoitem", [
         "create:windmill_bearing",
         "create:water_wheel",
         "create:large_water_wheel"
@@ -18,7 +18,7 @@ ServerEvents.tags("item", (event) => {
 
 ServerEvents.tags("block", (event) => {
 
-    event.add("kubejs:tornadoblock", [
+    event.add("afterlands2:tornadoblock", [
         "create:windmill_bearing",
         "create:water_wheel",
         "create:large_water_wheel"

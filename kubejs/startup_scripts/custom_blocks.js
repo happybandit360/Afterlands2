@@ -12,9 +12,9 @@ StartupEvents.registry("block", (event) => {
       .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron */
 
 
-    event.create("kubejs:wicker_block")
+    event.create("afterlands2:wicker_block")
         .displayName("Wicker Block")
-        .mapColor("Brown")
+        .mapColor("brown")
         .cropSoundType()
         .hardness(0.5)
         .resistance(1.0)
