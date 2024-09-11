@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/tri_ore_transmuter_item_input"
+    }
+  }
+}
