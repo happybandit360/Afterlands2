@@ -14,10 +14,44 @@ StartupEvents.registry("block", (event) => {
 
     event.create("afterlands2:wicker_block")
         .displayName("Wicker Block")
-        .mapColor("brown")
         .cropSoundType()
         .hardness(0.5)
         .resistance(1.0)
+        .requiresTool(false)
+
+    event.create("afterlands2:cobbled_gravel", "falling")
+        .displayName("Cobbled Gravel")
+        .gravelSoundType()
+        .hardness(1)
+        .resistance(1.0)
+        .requiresTool(false)
+
+    event.create("afterlands2:infused_coal_ore")
+        .displayName("Infused Coal Ore")
+        .stoneSoundType()
+        .hardness(3.0)
+        .resistance(3.0)
+        .requiresTool(false)
+
+    event.create("afterlands2:infused_iron_ore")
+        .displayName("Infused Iron Ore")
+        .stoneSoundType()
+        .hardness(3.0)
+        .resistance(3.0)
+        .requiresTool(false)
+
+    event.create("afterlands2:infused_copper_ore")
+        .displayName("Infused Copper Ore")
+        .stoneSoundType()
+        .hardness(3.0)
+        .resistance(3.0)
+        .requiresTool(false)
+
+    event.create("afterlands2:infused_zinc_ore")
+        .displayName("Infused Zinc Ore")
+        .stoneSoundType()
+        .hardness(3.0)
+        .resistance(3.0)
         .requiresTool(false)
 
 

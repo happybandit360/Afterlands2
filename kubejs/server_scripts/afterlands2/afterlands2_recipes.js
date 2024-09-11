@@ -83,6 +83,23 @@ ServerEvents.recipes((event) => {
        })
        .id("afterlands2:flint_shears")
 
+      event
+       .shaped("afterlands2:cobbled_gravel", [
+        "ABA",
+        "BAB",
+        "ABA"
+       ], {
+        A: "minecraft:gravel",
+        B: "minecraft:dead_bush"
+       })
+       .id("afterlands2:cobbled_gravel")
 
+       event.shapeless("create:andesite_alloy", [
+          "afterlands2:andesite_pebble",
+          "afterlands2:andesite_pebble",
+          "afterlands2:andesite_pebble",
+          "afterlands2:andesite_pebble",
+          "afterlands2:fools_gold_nugget"
+       ]).id("afterlands2:create_andesite_alloy")
 
   });

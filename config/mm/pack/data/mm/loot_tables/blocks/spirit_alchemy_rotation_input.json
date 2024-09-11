@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mm:spirit_alchemy_rotation_input"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mm:blocks/spirit_alchemy_rotation_input"
+}

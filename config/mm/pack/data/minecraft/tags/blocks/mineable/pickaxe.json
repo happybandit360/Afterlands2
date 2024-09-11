@@ -1,0 +1,26 @@
+{
+  "values": [
+    "mm:coal_infuser_controller",
+    "mm:spirit_alchemy_controller",
+    "mm:tri_ore_transmuter_controller",
+    "mm:squeezer_controller",
+    "mm:coal_infuser_item_input",
+    "mm:coal_infuser_item_output",
+    "mm:coal_infuser_rotation_input",
+    "mm:coal_infuser_rotation_output",
+    "mm:spirit_alchemy_item_input",
+    "mm:spirit_alchemy_item_output",
+    "mm:spirit_alchemy_rotation_input",
+    "mm:spirit_alchemy_rotation_output",
+    "mm:tri_ore_transmuter_item_input",
+    "mm:tri_ore_transmuter_item_output",
+    "mm:tri_ore_transmuter_rotation_input",
+    "mm:tri_ore_transmuter_rotation_output",
+    "mm:squeezer_item_input",
+    "mm:squeezer_item_output",
+    "mm:squeezer_rotation_input",
+    "mm:squeezer_rotation_output",
+    "mm:squeezer_fluid_input",
+    "mm:squeezer_fluid_output"
+  ]
+}

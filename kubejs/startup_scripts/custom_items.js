@@ -42,4 +42,20 @@ StartupEvents.registry("item", (event) => {
   event
     .create("afterlands2:broken_flint")
     .displayName("Broken Flint")
+  
+  event
+    .create("afterlands2:fools_gold_nugget")
+    .displayName("Fool's Gold Nugget")
+  
+  event
+    .create("afterlands2:fools_gold_ingot")
+    .displayName("Fool's Gold Ingot")
+  
+  event
+    .create("afterlands2:alchemical_catalyst")
+    .displayName("Alchemical Catalyst")
+  
+  event
+    .create("afterlands2:andesite_pebble")
+    .displayName("Andesite Pebble")
 })

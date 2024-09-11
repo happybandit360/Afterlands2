@@ -11,3 +11,17 @@ BlockEvents.broken("minecraft:cobblestone", (event) => {
       event.cancel();
     }
   });
+
+BlockEvents.broken("minecraft:deepslate", (event) => {
+  if (event.player.mainHandItem.hasTag("afterlands2:sandstonepick")) {
+    event.block.set("minecraft:cobbled_deepslate");
+    event.cancel();
+  }
+});
+
+BlockEvents.broken("minecraft:cobbled_deepslate", (event) => {
+    if (event.player.mainHandItem.hasTag("afterlands2:sandstonepick")) {
+      event.block.set("minecraft:gravel");
+      event.cancel();
+    }
+  });
