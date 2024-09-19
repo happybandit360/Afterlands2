@@ -27,6 +27,16 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:redstone').withChance(0.05)
     ], ['minecraft:sand', 'createsifter:string_mesh'])
 
+// Slight boost to gold and redstone with red sand
+    event
+    .recipes
+    .createsifterSifting([
+        Item.of('minecraft:dead_bush').withChance(0.6),
+        Item.of('minecraft:bone_meal').withChance(0.4),
+        Item.of('afterlands2:fools_gold_nugget').withChance(0.35),
+        Item.of('minecraft:redstone').withChance(0.15)
+    ], ['minecraft:red_sand', 'createsifter:string_mesh'])
+
 // Seeds from Dirt
     event
     .recipes

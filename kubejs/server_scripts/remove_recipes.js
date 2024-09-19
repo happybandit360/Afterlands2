@@ -6,7 +6,9 @@ const removeRecipesByID = [
     "minecraft:green_dye",
     "minecraft:lime_dye_from_smelting",
     "createsifter:string_mesh",
-    "occultism:crafting/butcher_knife"
+    "occultism:crafting/butcher_knife",
+    "create:crafting/materials/andesite_alloy",
+    "create:crafting/materials/andesite_alloy_from_zinc"
 ];
 
 const removeRecipesByInput = [

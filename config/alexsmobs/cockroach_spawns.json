@@ -20,6 +20,21 @@
         "type": "REGISTRY_NAME",
         "negate": true,
         "value": "minecraft:deep_dark"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_hot/overworld"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_dry/overworld"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_sandy"
       }
     ],
     [

@@ -1,36 +1,45 @@
 ServerEvents.recipes(event => {
 
-    event
+  event
     .shaped("16x minecraft:stick", [
-        "A",
-        "A"
-      ], {
-        A: "#minecraft:logs",
+      "A",
+      "A"
+    ], {
+      A: "#minecraft:logs",
     })
     .id("happybandit:logs_to_sticks");
 
-    event
+  event
     .shaped("4x minecraft:chest", [
-        "AAA",
-        "A A",
-        "AAA"
-      ], {
-        A: "#minecraft:logs",
+      "AAA",
+      "A A",
+      "AAA"
+    ], {
+      A: "#minecraft:logs",
     })
     .id("happybandit:logs_to_chests");
 
-    event
+  event
     .shapeless("minecraft:green_dye", [
       "minecraft:cactus"
     ]
-  )
-  .id("happybandit:green_dye")
+    )
+    .id("happybandit:green_dye")
 
-    event
+  event
     .shapeless("minecraft:lime_dye", [
       "minecraft:sea_pickle"
     ]
-  )
-  .id("happybandit:lime_dye")
+    )
+    .id("happybandit:lime_dye")
+
+  event
+    .shapeless("minecraft:flint", [
+      "minecraft:gravel",
+      "minecraft:gravel",
+      "minecraft:gravel"
+    ]
+    )
+    .id("happybandit:flint")
 
 })
