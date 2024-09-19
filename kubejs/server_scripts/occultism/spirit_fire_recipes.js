@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
     .custom({
       "type": "occultism:spirit_fire",
       "ingredient": {
-        "item": "minecraft:granite"
+        "item": "minecraft:diorite"
       },
       "result": {
         "count": 1,

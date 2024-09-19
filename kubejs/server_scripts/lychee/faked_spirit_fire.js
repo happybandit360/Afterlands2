@@ -64,6 +64,26 @@ ServerEvents.recipes((event) => {
     });
 
 
+    // Black Dye
+
+    event.custom({
+        "type": "lychee:item_inside",
+        "item_in": [
+            { "item": "afterlands2:cactus_paste" },
+            { "tag": "minecraft:coals" }
+        ],
+        "block_in": {
+            "blocks": ["occultism:spirit_fire"]
+        },
+        "post": [
+            {
+                "type": "drop_item",
+                "item": "minecraft:black_dye"
+            }
+        ]
+    });
+
+
 
 
 })

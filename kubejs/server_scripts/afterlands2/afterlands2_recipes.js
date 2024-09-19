@@ -99,7 +99,18 @@ ServerEvents.recipes((event) => {
           "afterlands2:andesite_pebble",
           "afterlands2:andesite_pebble",
           "afterlands2:andesite_pebble",
-          "afterlands2:fools_gold_nugget"
+          "afterlands2:cactus_paste"
        ]).id("afterlands2:create_andesite_alloy")
+
+       event.shapeless("afterlands2:fools_gold_ingot", [
+        "9x afterlands2:fools_gold_nugget"
+       ]).id("afterlands2:fools_gold_ingot")
+
+
+      // Smelting
+
+       event.smelting("afterlands2:cactus_paste", "minecraft:cactus").id("afterlands2:cactus_paste")
+
+       event.smoking("afterlands2:smoked_cactus", "minecraft:cactus").id("afterlands2:smoked_cactus")
 
   });

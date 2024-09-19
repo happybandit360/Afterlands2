@@ -2,12 +2,25 @@ ServerEvents.recipes(event => {
 
     event
     .shaped("minecraft:oak_planks", [
-        "AA",
-        "AA"
+        "A A",
+        " B ",
+        "A A"
       ], {
         A: "#forge:rods/wooden",
+        B: "afterlands2:cactus_paste"
     })
     .id("afterlands2:sticks_to_plank");
+
+    event
+    .shaped("minecraft:oak_log", [
+        "AAA",
+        "ABA",
+        "AAA"
+      ], {
+        A: "minecraft:oak_planks",
+        B: "afterlands2:cactus_paste"
+    })
+    .id("afterlands2:planks_to_log");
 
 
     event

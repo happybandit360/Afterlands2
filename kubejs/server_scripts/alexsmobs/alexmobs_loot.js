@@ -11,6 +11,11 @@ LootJS.modifiers((event) => {
         .addLoot("3x occultism:tallow");
 
     event
+        .addEntityLootModifier("alexsmobs:emu")
+        .addLoot("minecraft:chicken")
+        .randomChance(0.5);
+
+    event
         .addEntityLootModifier("alexsmobs:roadrunner")
         .matchMainHand("#occultism:tools/knives")
         .addLoot("occultism:tallow");

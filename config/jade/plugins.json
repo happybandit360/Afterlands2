@@ -86,5 +86,8 @@
   },
   "lootr": {
     "info": true
+  },
+  "corpse": {
+    "corpse": true
   }
 }

@@ -1,11 +1,21 @@
 ServerEvents.recipes((event) => {
     event
         .shapeless("create:sand_paper", [
-            "kubejs:wicker_mat",
+            "afterlands2:wicker_mat",
             "#minecraft:sand",
         ]
         )
         .id("afterlands2:create_sand_paper");
+
+    event.shaped("createsifter:string_mesh", [
+        "ABA",
+        "BAB",
+        "ABA"
+    ], {
+        A: "#forge:rods/wooden",
+        B: "#forge:string"
+    })
+    .id("afterlands2:createsifter_string_mesh")
 
     event.shaped("create:windmill_bearing", [
         "A",
@@ -16,7 +26,7 @@ ServerEvents.recipes((event) => {
         B: "minecraft:iron_block",
         C: "create:shaft"
     })
-        .id("create:windmill_bearing");
+        .id("afterlands2:create_windmill_bearing");
 
     event.shaped("create:mechanical_piston", [
         "A",
@@ -27,7 +37,7 @@ ServerEvents.recipes((event) => {
         B: "minecraft:piston",
         C: "create:shaft"
     })
-        .id("create:mechanical_piston");
+        .id("afterlands2:create_mechanical_piston");
 
 
 })

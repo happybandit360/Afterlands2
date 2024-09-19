@@ -1,8 +1,12 @@
 const removeRecipesByID = [
     "createsifter:sifting/sand_string_mesh",
     "occultism:crafting/golden_sacrifical_bowl",
-    "create:crafting/kinetics/windmill_bearing"
-
+    "create:crafting/kinetics/windmill_bearing",
+    "create:crafting/kinetics/mechanical_piston",
+    "minecraft:green_dye",
+    "minecraft:lime_dye_from_smelting",
+    "createsifter:string_mesh",
+    "occultism:crafting/butcher_knife"
 ];
 
 const removeRecipesByInput = [

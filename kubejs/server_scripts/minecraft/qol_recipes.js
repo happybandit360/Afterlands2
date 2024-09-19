@@ -19,5 +19,18 @@ ServerEvents.recipes(event => {
     })
     .id("happybandit:logs_to_chests");
 
+    event
+    .shapeless("minecraft:green_dye", [
+      "minecraft:cactus"
+    ]
+  )
+  .id("happybandit:green_dye")
+
+    event
+    .shapeless("minecraft:lime_dye", [
+      "minecraft:sea_pickle"
+    ]
+  )
+  .id("happybandit:lime_dye")
 
 })

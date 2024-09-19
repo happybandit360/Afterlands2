@@ -37,7 +37,7 @@ StartupEvents.registry("item", (event) => {
   event
     .create("afterlands2:flint_shears", "shears")
     .displayName("Flint Shears")
-    .maxDamage(80)
+    .maxDamage(30)
   
   event
     .create("afterlands2:broken_flint")
@@ -58,4 +58,18 @@ StartupEvents.registry("item", (event) => {
   event
     .create("afterlands2:andesite_pebble")
     .displayName("Andesite Pebble")
+
+  event
+    .create("afterlands2:cactus_paste")
+    .displayName("Cactus Paste")
+
+  event
+    .create("afterlands2:smoked_cactus").food(food => {
+      food
+        .hunger(3)
+        .saturation(0.5) // This value does not directly translate to saturation points gained
+        // The real value can be assumed to be:
+        // min(hunger * saturation * 2 + saturation, foodAmountAfterEating)
+      })
+    .displayName("Smoked Cactus")
 })

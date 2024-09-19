@@ -3,17 +3,6 @@ ServerEvents.recipes((event) => {
     // Coal Ore
 
     event.recipes.occultism.ritual(
-        "minecraft:coal_ore",
-        [
-            "occultism:datura",
-            "minecraft:charcoal",
-            "afterlands2:sandstone_pickaxe"
-        ],
-        "minecraft:stone",
-        "occultism:summon_foliot"
-    );
-
-    event.recipes.occultism.ritual(
         "6x minecraft:coal_ore",
         [
             "occultism:demons_dream_essence",
@@ -32,7 +21,7 @@ ServerEvents.recipes((event) => {
             "occultism:demons_dream_essence",
             "minecraft:coal_block",
             "minecraft:stone",
-            "occultism:otherworld_sapling",
+            "occultism:otherworld_log",
         ],
         "occultism:book_of_binding_bound_foliot",
         "occultism:summon_foliot"
