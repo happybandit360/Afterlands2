@@ -56,12 +56,12 @@ StartupEvents.registry("item", (event) => {
     .displayName("Alchemical Catalyst")
   
   event
-    .create("afterlands2:andesite_pebble")
-    .displayName("Andesite Pebble")
-
-  event
     .create("afterlands2:cactus_paste")
     .displayName("Cactus Paste")
+
+  event
+    .create("afterlands2:mystical_pickaxe")
+    .displayName("Mystical Pickaxe")
 
   event
     .create("afterlands2:smoked_cactus").food(food => {

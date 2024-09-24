@@ -51,5 +51,59 @@ MMEvents.createProcesses(event => {
                 item: "minecraft:diamond",
                 count: 1
             }
+        });
+    
+
+    event.create("mm:mystical_pickaxe")
+        .structureId("mm:squeezer")
+        .ticks(3000)
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:item",
+                item: "minecraft:diamond",
+                count: 1
+            }
         })
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:item",
+                item: "afterlands2:sandstone_pickaxe",
+                count: 1
+            }
+        })
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:item",
+                item: "afterlands2:alchemical_catalyst",
+                count: 1
+            }
+        })
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:item",
+                item: "occultism:otherworld_essence",
+                count: 1
+            }
+        })
+        .input({
+            type: "mm:input/consume",
+            ingredient: {
+                type: "mm:create/kinetic",
+                speed: 32
+            }
+        })
+        .output({
+            type: "mm:output/simple",
+            ingredient: {
+                type: "mm:item",
+                item: "afterlands2:mystical_pickaxe",
+                count: 1
+            }
+        });
+    
+    
 })

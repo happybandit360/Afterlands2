@@ -75,7 +75,7 @@ ServerEvents.recipes((event) => {
             "A A"
         ], {
 
-            A: "afterlands2:andesite_pebble",
+            A: "exnihilosequentia:andesite_pebble",
             B: "afterlands2:cactus_paste"
         })
         .id("afterlands2:create_andesite_alloy_early")

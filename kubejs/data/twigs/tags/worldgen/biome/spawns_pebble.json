@@ -1,0 +1,11 @@
+{
+    "replace": true,
+    "values": [
+      "#forge:is_desert",
+      "#forge:is_dry",
+      "#forge:is_hot",
+      "#forge:is_mountain",
+      "#forge:is_plateau",
+      "#forge:is_sandy"
+    ]
+  }

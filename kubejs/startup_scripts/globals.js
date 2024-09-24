@@ -8,7 +8,32 @@ global.hideRemoveJEI = [
     "mm:spirit_alchemy_rotation_output",
     "mm:tri_ore_transmuter_rotation_output",
     "mm:squeezer_rotation_output",
-    "mm:squeezer_fluid_input"
+    "mm:squeezer_fluid_input",
+    /^exnihilosequentia:.*_mesh$/,
+    /^exnihilosequentia:.*_crook$/,
+    /^exnihilosequentia:.*_hammer$/,
+    /^exnihilosequentia:.*_sieve$/,
+    /^exnihilosequentia:.*_pieces$/,
+    /^exnihilosequentia:.*_ingot$/,
+    /^exnihilosequentia:.*_nugget$/,
+    /^exnihilosequentia:raw.*$/,
+    /^exnihilosequentia:crushed.*$/,
+    "exnihilosequentia:infested_leaves",
+    "exnihilosequentia:infesting_leaves",
+    "exnihilosequentia:dust",
+    "exnihilosequentia:tuff_pebble",
+    "exnihilosequentia:stone_pebble",
+    "exnihilosequentia:netherrack_pebble",
+    "exnihilosequentia:granite_pebble",
+    "exnihilosequentia:end_stone_pebble",
+    "exnihilosequentia:dripstone_pebble",
+    "exnihilosequentia:cooked_silkworm",
+    "exnihilosequentia:silkworm",
+    "exnihilosequentia:basalt_pebble",
+    "exnihilosequentia:blackstone_pebble",
+    "exnihilosequentia:calcite_pebble",
+    "exnihilosequentia:deepslate_pebble",
+    "exnihilosequentia:diorite_pebble"
 
 
 ];

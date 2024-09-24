@@ -1,0 +1,1 @@
+execute as @e[type=alexsmobs:guster,tag=!scanned,sort=random] at @s run function horsenado:spawn

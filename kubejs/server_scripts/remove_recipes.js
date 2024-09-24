@@ -8,7 +8,11 @@ const removeRecipesByID = [
     "createsifter:string_mesh",
     "occultism:crafting/butcher_knife",
     "create:crafting/materials/andesite_alloy",
-    "create:crafting/materials/andesite_alloy_from_zinc"
+    "create:crafting/materials/andesite_alloy_from_zinc",
+    "minecraft:ens_andesite",
+    "twigs:cobblestone_from_pebble",
+    "mining_dimension:teleporter",
+    "createsifter:sifting/gravel_andesite_mesh",
 ];
 
 const removeRecipesByInput = [
