@@ -11,7 +11,6 @@ global.hideRemoveJEI = [
     "mm:squeezer_fluid_input",
     /^exnihilosequentia:.*_mesh$/,
     /^exnihilosequentia:.*_crook$/,
-    /^exnihilosequentia:.*_hammer$/,
     /^exnihilosequentia:.*_sieve$/,
     /^exnihilosequentia:.*_pieces$/,
     /^exnihilosequentia:.*_ingot$/,
@@ -33,7 +32,8 @@ global.hideRemoveJEI = [
     "exnihilosequentia:blackstone_pebble",
     "exnihilosequentia:calcite_pebble",
     "exnihilosequentia:deepslate_pebble",
-    "exnihilosequentia:diorite_pebble"
+    "exnihilosequentia:diorite_pebble",
+    /^thermal:dynamo_.*$/
 
 
 ];

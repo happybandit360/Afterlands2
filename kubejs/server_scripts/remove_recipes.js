@@ -12,6 +12,8 @@ const removeRecipesByID = [
     "minecraft:ens_andesite",
     "twigs:cobblestone_from_pebble",
     "mining_dimension:teleporter",
+    "ars_nouveau:novice_spell_book",
+    "minecraft:ens_cobblestone",
     "createsifter:sifting/gravel_andesite_mesh",
 ];
 

@@ -42,4 +42,10 @@ ServerEvents.recipes(event => {
     )
     .id("happybandit:flint")
 
+  event
+    .shapeless("minecraft:cobweb", [
+      "9x minecraft:string"
+    ])
+    .id("happybandit:cobweb")
+
 })

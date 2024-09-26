@@ -100,15 +100,23 @@
         "minecraft:ore_redstone",
         "minecraft:ore_redstone_lower",
         "minecraft:ore_lapis",
-        "minecraft:disk_clay",
         "minecraft:ore_diamond",
         "minecraft:ore_diamond_large",
         "minecraft:ore_emerald",
-        "create:zinc_ore",
-        "occultism:ore_silver",
         "minecraft:lake_lava_underground",
         "minecraft:spring_lava",
-        "minecraft:spring_water"
+        "minecraft:spring_water",
+        "minecraft:amethyst_geode",
+        "create:zinc_ore",
+        "thermal:lead_ore",
+        "thermal:nickel_ore",
+        "thermal:silver_ore",
+        "thermal:tin_ore",
+        "thermal:apatite_ore",
+        "thermal:cinnabar_ore",
+        "thermal:niter_ore",
+        "thermal:sulfur_ore"
+
       ]
     ]
   }

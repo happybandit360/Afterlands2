@@ -1,0 +1,205 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "6E3B1A392BC5CB5C"
+	id: "4AF378D172A86842"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1A6AEC6E516733D3"
+			shape: "gear"
+			tasks: [{
+				id: "09F0C1B13A122768"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			id: "2871D0004F708C5B"
+			tasks: [{
+				id: "4668CDA035FEC9FA"
+				item: "occultism:spirit_fire"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			id: "5ACF3E85725BFC28"
+			tasks: [{
+				id: "259F5B9C908C5C61"
+				item: "occultism:otherworld_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			id: "7B8B46B755457A99"
+			tasks: [{
+				id: "1B674F3E604CE51D"
+				item: "occultism:otherstone"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "79EB3A8F4BE7529C"
+			tasks: [{
+				count: 5L
+				id: "698F88BA28278AC7"
+				item: "occultism:sacrificial_bowl"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			id: "04BBE3E9C4035B79"
+			tasks: [{
+				id: "5811DB5938A8C1CC"
+				item: "occultism:golden_sacrificial_bowl"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "1E7E173F0F0192FE"
+			tasks: [{
+				id: "1DB78B9C4113E0CF"
+				item: "minecraft:coal_ore"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "13EF3C1AF702AA28"
+			shape: "pentagon"
+			tasks: [{
+				id: "6A1D2AE54B097D5C"
+				item: "afterlands2:infused_coal_ore"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "1EF412C32A3C86CF"
+			tasks: [{
+				id: "11706AC99487D0EE"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "177BAE46E8ACBE76"
+			tasks: [{
+				id: "4BC103E46AFB148C"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "171047555F15F417"
+			tasks: [{
+				id: "1FEBA12D545D542D"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "40FC096DD716B1D6"
+			tasks: [{
+				id: "634C17F4C95A105C"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7581A54B7879870F"
+			tasks: [{
+				id: "795EE5ABB0B0CA2B"
+				item: "afterlands2:alchemical_catalyst"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "20C1F1558592E97D"
+			tasks: [{
+				id: "30C17C91B3CBE788"
+				item: "mm:squeezer_controller"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "4A7AD125D8CC16D6"
+			tasks: [{
+				id: "4D670C5CC275852C"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "49C7B7D7991EC051"
+			tasks: [{
+				id: "5BB99FEEC93E56B7"
+				item: "mining_dimension:teleporter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "3207A9FC8D3FE43A"
+			tasks: [{
+				id: "0E4A2CD15FA7CB20"
+				item: "afterlands2:mystical_pickaxe"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "720016210B46ED33"
+			tasks: [{
+				id: "588486079B13705D"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "5C9B2C91FFEBFD24"
+			tasks: [{
+				id: "6C54D9A7591FD21C"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	title: "Occultism"
+}

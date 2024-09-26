@@ -2,12 +2,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "basic_survival"
-	group: ""
+	group: "6E3B1A392BC5CB5C"
+	hide_quest_until_deps_visible: true
 	id: "2531C3A831B39D9E"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0EB9A4F203F084C7"]
 			icon: "minecraft:dead_bush"
 			id: "350EAFA06451DB9D"
 			rewards: [{
@@ -17,6 +19,7 @@
 				random_bonus: 16
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				count: 16L
 				id: "7FA8874EAF07C8B8"
@@ -46,6 +49,215 @@
 			}]
 			x: -7.0d
 			y: -5.5d
+		}
+		{
+			id: "411D41964CFAB4EB"
+			tasks: [{
+				id: "38B130A22603F461"
+				item: "afterlands2:cobbled_gravel"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			id: "430235097CE93E5A"
+			tasks: [{
+				id: "36739CAF88F138A6"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			id: "41FB4D1F2E66DE5A"
+			tasks: [{
+				id: "2EC252FBB7153C4C"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			id: "013E6E2AA038CAB3"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "58963B954C0EBB2F"
+					item: {
+						Count: 1
+						id: "createsifter:string_mesh"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0E86ABF63D8C0B8B"
+					item: "createsifter:sifter"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			id: "40B1160E8DD369AF"
+			tasks: [{
+				id: "19209522FF94C7F4"
+				item: "afterlands2:wicker_mat"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			id: "61FF5E43F2E8C144"
+			tasks: [{
+				id: "082D087F1C9AFDF7"
+				item: {
+					Count: 1
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			id: "78ADE873BD520F7C"
+			tasks: [
+				{
+					id: "5A89342C901D0B56"
+					item: "exnihilosequentia:andesite_pebble"
+					type: "item"
+				}
+				{
+					id: "5C8A652B21498960"
+					item: "afterlands2:cactus_paste"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			id: "7D8D82A575E2DA2F"
+			tasks: [{
+				id: "772B7A7DC7D99C0B"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			id: "24DEFF7DF828EFDC"
+			tasks: [
+				{
+					id: "003971D2F125218B"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "0AACAE15141855CC"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "25094DDAF3CCAFD6"
+			tasks: [{
+				id: "0448BD8BC39F2F7C"
+				item: "afterlands2:wicker_block"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			id: "13D0100F9C3046C4"
+			tasks: [{
+				id: "2C93AC92F5F73EED"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			id: "616F4223F206FDD9"
+			tasks: [{
+				id: "09D38D9ABC1F6A8E"
+				item: "exnihilosequentia:grass_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			id: "642D10C1DE367900"
+			tasks: [{
+				id: "52B36E592FB69B6C"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			id: "6A52655254BC2ACE"
+			tasks: [{
+				id: "35A89D66DA1330E7"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			id: "19FE23D851904724"
+			tasks: [{
+				id: "743473B955A905F7"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			id: "57BE0EC6E8B7993B"
+			shape: "pentagon"
+			tasks: [{
+				id: "120DFE08BF772E24"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "4C8A24793893430C"
+			tasks: [{
+				id: "2371D4A333685808"
+				item: "afterlands2:fools_gold_nugget"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
 		}
 	]
 	title: "Basic Survival"

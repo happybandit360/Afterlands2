@@ -93,4 +93,47 @@ ServerEvents.recipes((event) => {
     );
 
 
+// Spawn Eggs
+
+    event.recipes.occultism.ritual(
+        "ars_nouveau:blue_archwood_sapling",
+        [
+            "ars_nouveau:source_gem",
+            "minecraft:lapis_lazuli"
+        ],
+        "minecraft:oak_sapling",
+        "occultism:summon_foliot"
+    );
+
+    event.recipes.occultism.ritual(
+        "ars_nouveau:red_archwood_sapling",
+        [
+            "ars_nouveau:source_gem",
+            "minecraft:redstone"
+        ],
+        "minecraft:oak_sapling",
+        "occultism:summon_foliot"
+    );
+
+    event.recipes.occultism.ritual(
+        "ars_nouveau:green_archwood_sapling",
+        [
+            "ars_nouveau:source_gem",
+            "occultism:datura"
+        ],
+        "minecraft:oak_sapling",
+        "occultism:summon_foliot"
+    );
+
+    event.recipes.occultism.ritual(
+        "ars_nouveau:purple_archwood_sapling",
+        [
+            "ars_nouveau:source_gem",
+            "occultism:datura_seeds"
+        ],
+        "minecraft:oak_sapling",
+        "occultism:summon_foliot"
+    );
+
+
 })

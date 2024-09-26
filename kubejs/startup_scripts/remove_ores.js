@@ -1,6 +1,7 @@
 let unwanted_ore = [
     /^minecraft:.*ore$/,
     /^create:.*ore$/,
+    /^thermal:.*ore$/,
     "occultism:silver_ore",
     "occultism:silver_ore_deepslate"
   ];

@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "masterful_machines"
+	group: "6E3B1A392BC5CB5C"
+	id: "3F6ED1ADA2AFFBDC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "786E87D4BA7F20A1"
+		tasks: [{
+			id: "42A05F1387F44925"
+			item: "mm:coal_infuser_controller"
+			type: "item"
+		}]
+		x: -10.0d
+		y: -2.5d
+	}]
+	title: "Masterful Machines"
+}

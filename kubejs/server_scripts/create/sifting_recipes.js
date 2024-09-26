@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
     event
     .recipes
     .createsifterSifting([
-        Item.of('minecraft:wheat_seeds').withChance(0.4)
+        Item.of('exnihilosequentia:grass_seeds').withChance(0.4)
     ], ['#minecraft:dirt', 'createsifter:string_mesh'])
 
 })
